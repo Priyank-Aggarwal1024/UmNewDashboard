@@ -1,0 +1,286 @@
+.umnd-allcourses {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.umnd-allcourses-top {
+    display: flex;
+    width: 100%;
+    background: #121212;
+    box-shadow: 0px 2.25px 37.5px -7.5px rgba(0, 0, 0, 0.05);
+    padding: 18px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.umnd-act-left {
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 24.7px */
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.umnd-act-right {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.umnd-actr-achivement {
+    display: flex;
+    height: 52.899px;
+    padding: 0px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.8px;
+    border-radius: 13.6px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.umnd-actr-whatsgroup {
+    display: flex;
+    padding: 15.4px 27.2px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.8px;
+    border-radius: 849.985px;
+    border: 0.85px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.85px;
+    background: linear-gradient(93deg, #49D043 -6.05%, #FFB912 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.umnd-actra-para1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.umnd-actra-para2 {
+    color: #FFBE40;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.font-ma {
+    font-family: "Montserrat Alternates";
+
+}
+
+.umnd-allcourses-bottom {
+    display: flex;
+    /* height: 100%; */
+    width: 100%;
+    padding: 18px;
+}
+
+.umnd-acb-inner {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 18.36px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21.42px;
+    flex-shrink: 0;
+    border-radius: 15.3px;
+    border: 0.765px solid rgba(255, 255, 255, 0.05);
+    background: #131612;
+
+}
+
+.umnd-acb-top {
+    display: flex;
+    align-items: center;
+    gap: 6.12px;
+    overflow: hidden;
+    color: #FFF;
+    text-overflow: ellipsis;
+    font-family: Archivo;
+    font-size: 24.48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.umnd-acb-top>p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.umnd-acb-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 17px;
+    row-gap: 12px;
+    width: 100%;
+}
+
+.umnd-acb-course {
+    display: flex;
+    text-decoration: none;
+    min-height: 78.889px;
+    border-radius: 7.889px;
+    border: 0.789px solid rgba(0, 0, 0, 0.25);
+    background: rgba(36, 38, 35, 0.47);
+    box-shadow: 0px 3.156px 15.778px 0px rgba(0, 0, 0, 0.07);
+    padding: 18px 21px;
+    justify-content: space-between;
+    align-items: center;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.umnd-acb-course:hover {
+    border-radius: 7.889px;
+    border: 0.789px solid #29BF12;
+    background: linear-gradient(264deg, rgba(255, 190, 64, 0.10) 8.85%, rgba(73, 208, 67, 0.10) 90.63%);
+    box-shadow: 0px 3.156px 15.778px 0px rgba(0, 0, 0, 0.07);
+}
+
+.umnd-acbc-left {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.umnd-acb-course:hover .umnd-acbc-right {
+    opacity: 0;
+}
+
+.umnd-acbc-left-icon {
+    width: 42px;
+    height: 42px;
+}
+
+@media (width<1280px) {
+    .umnd-act-left {
+        font: 18px;
+    }
+
+    .umnd-actr-whatsgroup {
+        padding: 12px 15px;
+    }
+
+    .umnd-actr-achivement {
+        padding: 0 15px;
+        height: 42px;
+    }
+
+    .umnd-actr-achivement>img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .umnd-actra-para1,
+    .umnd-actra-para2 {
+        font-size: 18px;
+    }
+}
+
+@media (width<1024px) {
+    .umnd-acb-bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .umnd-actr-whatsgroup>p {
+        display: none;
+    }
+
+    .umnd-act-left>p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        flex: 1 0 0;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+
+@media (width<678px) {
+    .umnd-acb-bottom {
+        grid-template-columns: 1fr;
+    }
+
+    .umnd-acb-course {
+        padding: 12px 15px;
+    }
+
+    .umnd-acb-inner {
+        padding: 12px;
+    }
+
+    .umnd-acbc-left {
+        font-size: 13px;
+    }
+
+    .umnd-acbc-left-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .umnd-acbc-right {
+        width: 22px;
+        height: 22px;
+    }
+
+    .umnd-acbc-right>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .umnd-acb-top {
+        font-size: 20px;
+    }
+
+    .umnd-act-left {
+        font-size: 17px;
+    }
+
+    .umnd-actra-para1,
+    .umnd-actra-para2 {
+        font-size: 15px;
+    }
+}

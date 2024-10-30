@@ -1,0 +1,207 @@
+.umnd-sidebar {
+    width: 240px;
+    height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    background: #121212;
+    overflow-y: auto;
+    padding: 40px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: hidden;
+}
+
+.umnd-sidebar-top {
+    width: 100%;
+}
+
+.umnd-st-arrow {
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 9px;
+    background: #131512;
+    cursor: pointer;
+}
+
+.umnd-st-logo {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.umnd-st-logo>img {
+    width: 100%;
+}
+
+.umnd-sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.umnd-sb-logout {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    padding: 15px 11.25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 14px;
+    background: rgba(255, 90, 90, 0.10);
+    color: #FF5A5A;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.umnd-sbu-username {
+    overflow: hidden;
+    color: #FFF;
+    text-overflow: ellipsis;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    width: 100%;
+}
+
+.umnd-sb-user {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    padding: 10.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    background: #171717;
+    cursor: pointer;
+}
+
+/* .umnd-sidebar::-webkit-scrollbar {
+    display: none;
+} */
+
+.umnd-st-navlinks {
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.umnd-st-navlink {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.unmd-st-hackathon {
+    position: relative;
+}
+
+.unmd-st-hack-new {
+    color: #0D110C;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.45px;
+    text-transform: capitalize;
+    display: flex;
+    transform: rotate(-2deg);
+    padding: 3px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5px;
+    border-radius: 750px;
+    background: linear-gradient(105deg, #1ABA5B 0.24%, #FED12E 100.24%);
+    box-shadow: 0px 3px 12px -3.75px rgba(215, 205, 53, 0.15);
+    position: absolute;
+    right: -9.573px;
+    top: -2.777px;
+    z-index: 1;
+}
+
+.umnd-st-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-close-icon {
+    display: none;
+}
+
+@media(width<1440px) {
+    .umnd-sidebar {
+        width: 180px;
+        border-right: 0.75px solid rgba(255, 255, 255, 0.05);
+        background: #121212;
+        padding: 30px 18px 18px;
+
+    }
+
+    .umnd-st-logo {
+        padding-top: 22.5px;
+    }
+
+    .umnd-st-arrow {
+        padding: 12px;
+    }
+}
+
+@media (width<768px) {
+    .umnd-sidebar {
+        position: absolute;
+        left: -100%;
+        top: 0;
+    }
+
+    .sidebar-nav-show {
+        position: absolute;
+        z-index: 20;
+        left: 0;
+        top: 0;
+    }
+
+    .sidebar-close-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

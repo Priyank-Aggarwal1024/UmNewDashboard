@@ -1,0 +1,405 @@
+.umnd-course {
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.umnd-course-top {
+    width: 100%;
+    display: flex;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    box-shadow: 0px 2.25px 37.5px -7.5px rgba(0, 0, 0, 0.05);
+}
+
+.umnd-ct-right {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.umnd-ctr-progress {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+}
+
+.umnd-ctr-progress-inner {
+    width: 52.805px;
+    height: 52.805px;
+    flex-shrink: 0;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.umnd-ctr-progress-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17.602px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%;
+
+    position: absolute;
+    z-index: 2;
+    /* 21.738px */
+}
+
+.umnd-ctr-progress-img {
+    position: absolute;
+    z-index: 1;
+}
+
+.umnd-ctrp-para {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(90deg, #FFB912 0%, #49D043 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.umnd-ctr-task {
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    display: flex;
+    height: 47px;
+    padding: 15px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.557px;
+    border-radius: 13px;
+    background: linear-gradient(180deg, #FFCB3C 0%, #FDAC1B 100%);
+    box-shadow: 0px 0px 4.055px 4.055px #FEAB2E inset, -5.557px -5.557px 5.557px 0px #F90 inset;
+    text-decoration: none;
+}
+
+.umnd-ctr-task-outer {
+    display: flex;
+    padding: 4.055px;
+    justify-content: center;
+    align-items: center;
+    gap: 4.055px;
+    background: #FFF;
+    border-radius: 12px;
+}
+
+.umnd-course-bottom {
+    width: 100%;
+    padding: 9px 18px;
+    display: flex;
+    gap: 14px;
+    height: 100%;
+    /* max-width: 100%; */
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.umnd-cd-coursecontent {
+    display: flex;
+    width: 362px;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 13.725px;
+    border: 0.858px solid #49D043;
+    overflow-y: auto;
+}
+
+.umnd-cb-videocontent {
+    width: calc(100vw - 586px);
+    display: flex;
+    height: 516px;
+    max-height: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 0.556px solid rgba(255, 255, 255, 0.05);
+    background: #131612;
+    overflow-y: auto;
+}
+
+.umnd-cbv-vd-module {
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(79deg, #FFB912 -6.42%, #49D043 97.51%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.umnd-cbv-vd-lecture {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.umnd-cbv-video-div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.umnd-cbv-video-div>video {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.umnd-cd-coursecontent {
+    background: #131612;
+
+}
+
+.umnd-cd-coursecontent::-webkit-scrollbar {
+    display: none;
+}
+
+.umnd-cdc-top {
+    display: flex;
+    padding: 13.725px;
+    align-items: center;
+    gap: 6.156px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #131612;
+    z-index: 1;
+
+}
+
+.umnd-cdc-cc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17.156px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.858px;
+}
+
+.umnd-cdc-cc-outr {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.umnd-cdc-bottom {
+    display: flex;
+    padding: 17.156px 13.725px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17.156px;
+    flex-shrink: 0;
+    border-top: 0.858px solid rgba(255, 255, 255, 0.10);
+    background: #131612;
+    width: 100%;
+
+}
+
+.umnd-cdcb-module {
+    display: flex;
+    padding: 13.5px 18.283px 6.75px 13.5px;
+    align-items: flex-start;
+    gap: 11.813px;
+    border-radius: 13.5px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    width: 100%;
+    flex-direction: column;
+}
+
+.umnd-cdcb-module-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2px;
+}
+
+.umnd-cbcdmh-top {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15.188px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.87;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 0px;
+    cursor: pointer;
+}
+
+.umnd-cbcdmh-top>p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.umnd-cbcdmh-top.open {
+    font-family: Poppins;
+    font-size: 15.514px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.87;
+    background: var(--Linear, linear-gradient(79deg, #FFB912 -6.42%, #49D043 97.51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.umnd-cbcdmh-top-img.open {
+    rotate: 180deg;
+}
+
+.umnd-cdcb-module.open {
+    border-radius: 13.79px;
+    background: #1F221E;
+    box-shadow: 0px 3.447px 10.946px 0px rgba(63, 63, 63, 0.25);
+}
+
+.umnd-cdcb-lectures {
+    display: flex;
+    flex-direction: column;
+    gap: 17.237px;
+    align-items: start;
+    width: 100%;
+}
+
+.umnd-cbcdmh-bottom {
+    opacity: 0.87;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Poppins;
+    font-size: 11.204px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vertical-line {
+    width: 0.844px;
+    height: 14.344px;
+    flex-shrink: 0;
+    background: #726E6E;
+}
+
+.umnd-cdcb-lecture {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    gap: 9px;
+    cursor: pointer;
+}
+
+.umnd-cdcbl-heading {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins;
+    font-size: 12.066px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.87;
+}
+
+.pt-1 {
+    padding-top: 4px;
+}
+
+.umnd-lecture-checkbox {
+    width: 20.685px;
+    height: 20.685px;
+    flex-shrink: 0;
+    padding: 4px;
+    margin-left: auto;
+
+}
+
+.umnd-lecture-checkbox-inner {
+    border: 2px solid #FFB912CC;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.umnd-lecture-checkbox-checked {
+    width: 20.685px;
+    height: 20.685px;
+    flex-shrink: 0;
+    padding: 4px;
+    margin-left: auto;
+}
+
+.umnd-lecture-checkbox-checked-inner {
+    font-size: 10px;
+    font-weight: 600;
+    color: #131612;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FFB912CC;
+}
+
+.sidebar-open-icon {
+    display: none;
+}
+
+@media (width<1024px) {
+    .umnd-course-bottom {
+        flex-direction: column;
+    }
+
+    .umnd-cb-videocontent {
+        width: 100%;
+    }
+
+    .umnd-cd-coursecontent {
+        width: 100%;
+    }
+}
+
+@media (width<768px) {
+    .sidebar-open-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
